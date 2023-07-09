@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Mulish', sans-serif;
-    z-index: 1;
 }
 .slide{
     width: 100%;
@@ -111,6 +110,16 @@
     align-items: center;
     flex-direction: column;
     color: #6c757d;
+    z-index: 1;
+}
+.nd_2_2 a{
+    z-index: 1;
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
 }
 a{
     transition-property: all;
@@ -133,6 +142,7 @@ a:hover{
     height: 66%;
     transition: all 1s;
     z-index: 0;
+    margin-top: 50px;
 }
 .it_img:hover{
     transform: scale(1.2);
