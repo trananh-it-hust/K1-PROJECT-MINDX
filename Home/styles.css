@@ -112,7 +112,7 @@
     color: #6c757d;
     z-index: 1;
 }
-.nd_2_2 a{
+.nd_2_2_1{
     z-index: 1;
     color: #6c757d;
     font-size: 14px;
@@ -120,6 +120,7 @@
     word-spacing: 1px;
     letter-spacing: 0.5px;
     text-decoration: none;
+    display: block;
 }
 a{
     transition-property: all;
@@ -136,6 +137,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     z-index: 1;
+    position: relative;
 }
 .it_img{
     width: 100%;
@@ -189,5 +191,7 @@ a:hover{
     color: #6c757d;
     text-decoration: line-through;
     z-index: 1;
-
+}
+.fa-bag-shopping:hover{
+    color: #fe793b;
 }
