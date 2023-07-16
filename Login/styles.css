@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+    transition-property: all;
+}  
+a:hover{
+    color: #fe793b;
+    text-decoration-line:underline;
+}
+.nd1_h{
+    color: gray;
+    font-size: 14px;
+    font-weight: 200;
+    height: 20px;
+    margin: 10px 0 0 25px;
+}
+.nd1_h span{
+    color: #fe793b;
+}
+.login{
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid rgb(237, 227, 227);
+}
+.h_nd1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.h_nd1 a{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(237, 227, 227);
+    box-shadow: 1px 1px 1px gray;
+}
+#h_nd1_a1{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+#h_nd1_a2{
+    color: gray;
+    font-size: 16px;
+}
+#h_nd1_a2:hover{
+    color: #fe793b;
+}
+#h_nd1_a1::after{
+    content: '';
+    background-color: #fe793b;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+.dangnhap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    border: whitesmoke 1px solid;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+strong{
+    transform: translateX(-50%);
+    color: #fe793b;
+    font-weight: 600;
+}
+input{
+    height: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid rgb(232, 228, 228);
+    padding-left: 15px;
+}
+.dangnhap a{
+    align-self: flex-end;
+    color: #fe793b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    height: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid rgb(232, 228, 228);
+    color: white;
+    background-color: #fe793b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dangnhap p{
+    width: 50%;
+    color: gray;
+    font-size: 10px;
+    align-self: center;
+    text-align: center;
+}
+.dangnhapqua{
+    margin-top: 20px;
+    color: rgb(148, 148, 148);
+    font-size: 10px;
+    width: 25%;
+    align-self: center;
+    text-align: center;
+    border: rgb(171, 168, 168) solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    background-color: white;
+    z-index: 1;
+}
+.login_f{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.login_f img{
+    width: 45%;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.login_f img:hover{
+    opacity: 0.7;
+}
+.tb{
+    font-weight: 200;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+.quaylai{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.quaylai div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
