@@ -106,6 +106,7 @@ button{
     background-color: #fe793b;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .dangnhap p{
     width: 50%;
@@ -161,4 +162,9 @@ button{
     justify-content: center;
     align-items: center;
     margin-right: 3px;
+}
+.tbao{
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
 }
