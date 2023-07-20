@@ -12,7 +12,9 @@ a:hover,a:focus {
     color: rgb(254, 80, 0);
     text-decoration: underline;
 }
-
+.topbar-item{
+    cursor: pointer;
+}
 /* .header{
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
