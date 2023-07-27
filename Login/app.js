@@ -24,4 +24,6 @@ btn_dn.addEventListener("click", () => {
     gm_tb.innerText = "Nhập sai định dạng gmail";
     return;
   }
+  if(tb.innerText == "") window.open("../Home/index.html")
 });
+

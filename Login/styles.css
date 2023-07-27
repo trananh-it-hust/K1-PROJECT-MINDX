@@ -9,6 +9,14 @@
     border: 0;
     padding: 0;
 }
+.category__text{
+    color: rgb(9, 9, 9)!important;
+    text-decoration: none !important;
+}
+.category__text:hover,a:focus {
+    color: white !important;
+    text-decoration: underline !important;
+}
 a{
     color: black !important;
     text-decoration: none !important; 
@@ -545,6 +553,11 @@ button{
     justify-content: center;
     align-items: center;
     margin-right: 3px;
+}
+#tb{
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 .tbao{
     color: red;

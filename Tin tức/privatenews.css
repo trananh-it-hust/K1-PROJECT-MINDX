@@ -1,7 +1,14 @@
 * {
     font-family: 'Mulish', sans-serif;
 }
-
+.category__text{
+    color: rgb(9, 9, 9)!important;
+    text-decoration: none !important;
+}
+.category__text:hover,a:focus {
+    color: white !important;
+    text-decoration: underline !important;
+}
 a:hover{
     color: #fe793b;
     text-decoration-line:underline;
