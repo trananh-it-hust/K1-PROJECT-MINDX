@@ -622,6 +622,9 @@ a:hover{
     color: #fe793b;
     text-decoration-line:underline;
 }
+#item_dau{
+    position: relative;
+}
 .item{
     flex: 1 0 270px;
     padding: 5px;
@@ -691,6 +694,7 @@ a:hover{
     color: #fe793b;
 }
 .nd_2_2_item{
+    position: relative;
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: flex;
