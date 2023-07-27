@@ -784,12 +784,12 @@ footer {
 .social{
     display: flex;
 } 
-.social a{
+.social p{
     color: white;
     margin-left: 15px;
     
 }
-.social a:hover{
+.social p:hover{
     color: red;
 }
 .item_link:hover {

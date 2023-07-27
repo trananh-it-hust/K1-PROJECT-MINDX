@@ -638,3 +638,11 @@ footer {
 .copy:hover{
     color: red;
 }
+.social p{
+    color: white;
+    margin-left: 15px;
+    
+}
+.social p:hover{
+    color: red;
+}
