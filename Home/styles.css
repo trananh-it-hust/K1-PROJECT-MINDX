@@ -592,7 +592,7 @@ a:hover,a:focus {
     transform: skew(30deg);
     z-index: -1;
 }
-.canh{
+#canh{
     background-color: #f95f18;
     transform: skew(-30deg);
     height: 30px;
@@ -601,8 +601,9 @@ a:hover,a:focus {
     font-size: 24px;
     font-weight:600;
     text-align: center;
+    cursor: pointer;
 }
-.canh1{
+#canh1{
     background-color: #f95f18;
     transform: skew(30deg);
     height: 30px;
@@ -611,6 +612,7 @@ a:hover,a:focus {
     font-size: 24px;
     font-weight:600;
     text-align: center;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -621,8 +623,8 @@ a:hover{
     text-decoration-line:underline;
 }
 .item{
+    flex: 1 0 270px;
     padding: 5px;
-    width: 270px;
     height: 390px;
     margin-bottom: 25px;
     display: flex;
@@ -689,10 +691,12 @@ a:hover{
     color: #fe793b;
 }
 .nd_2_2_item{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
     display: flex;
-    gap:10px;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap:25px;
+    overflow: hidden;
+    justify-content: flex-start;
 }
 .nd3{
     z-index: 1;
@@ -771,6 +775,70 @@ a:hover{
 }
 .nd3 img:hover{
     opacity: 0.8;
+}
+.nd4{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+.nd4 img{
+    width: 100%;
+}
+.h_nd4_1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #eceded 0.5px solid;
+}
+.h_nd4_1 div{
+    color: gray;
+    display: flex;
+    gap: 20px;
+}
+.h_nd4_1 div p:hover{
+    color:#f95f18;
+}
+.private-news {
+    margin-top: 20px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .category {
+    background-color: aquamarine;
+} */
+
+.tab {
+    padding: 5px; 
+}
+
+
+.img img {
+    width: 400px;
+    height: 270px;
+}
+
+.tab-content {
+    padding: 5px;
+}
+
+.tab-content a {
+    display: inline-block;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.tab-content p {
+    font-size: 15px;
+}
+
+.tab-content span {
+    font-size: 13px;
+    color: black;
 }
 
 
