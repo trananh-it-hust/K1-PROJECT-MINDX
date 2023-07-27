@@ -182,8 +182,12 @@ a:hover,a:focus {
     border-top: 1px solid rgb(0, 0, 0, 0.1);
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
     display: none;
+    background-color: white;
+    z-index: 3;
 }
 .category{
+    background-color: white;
+    z-index: 3;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -219,6 +223,8 @@ a:hover,a:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: white;
+    z-index: 3;
 }
 .product-item{
     display: flex;

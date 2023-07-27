@@ -332,11 +332,15 @@ a:hover,a:focus {
     border-top: 1px solid rgb(0, 0, 0, 0.1);
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
     display: none;
+    background-color: white;
+    z-index: 3;
 }
 .category{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: white;
+    z-index: 3;
 } 
 .category__list{
     margin: 15px 50px;
@@ -369,6 +373,8 @@ a:hover,a:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: white;
+    z-index: 3;
 }
 .product-item{
     display: flex;
